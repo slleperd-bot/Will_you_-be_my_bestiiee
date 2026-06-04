@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Will You Be My Bestie?</title>
+    <style>
+        body{
+            background:#ffe6f2;
+            text-align:center;
+            font-family:Arial,sans-serif;
+            margin-top:100px;
+        }
+
+        h1{
+            color:#ff1493;
+        }
+
+        button{
+            padding:15px 30px;
+            font-size:20px;
+            margin:10px;
+            border:none;
+            border-radius:10px;
+            cursor:pointer;
+        }
+
+        .yes{
+            background:#4CAF50;
+            color:white;
+        }
+
+        .no{
+            background:#ff4d4d;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Will You Be My Bestie? 💖</h1>
+
+<button class="yes" onclick="yesAnswer()">Yes 😊</button>
+<button class="no" onclick="noAnswer()">No 😢</button>
+
+<script>
+function yesAnswer(){
+    document.body.innerHTML =
+    "<h1>Yay! We are Besties Forever! 💕🎉</h1>";
+}
+
+function noAnswer(){
+    alert('Please think again 😭');
+}
+</script>
+
+</body>
+</html>
